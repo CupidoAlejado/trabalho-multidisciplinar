@@ -1,0 +1,491 @@
+body{
+  background-color:#FEEAE3;
+  margin: 0px;
+  font-family: cherry bomb;
+}
+/*.logo{
+  width: 10%;
+  height: auto;
+}
+*/
+.I{
+  background-color: #FEEAE3;
+  display: flex; /*trasforma uma div em container*/
+  flex-direction: row; /* alinhas os filhos em uma direção (TAG COLUMN ALINHA NA VERTICAL */
+  flex-wrap: wrap;
+}
+.c2{
+  width: 10%;
+  height: 15vh;
+  background-color:#B7C8A1;  
+  margin-left: 6%;
+  margin-right: 6%;
+  margin: 4%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.c2 a{
+  text-align: center;
+  margin-top: 20%;
+  font-size: 200%;
+  color: white;
+  text-decoration: none;
+}
+
+.logo{
+  height: 100%;
+  width: 50%;
+
+} 
+
+.L2{
+  width: 60%;
+  height: 5vh;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.L3{
+  width: 10%;
+  height: 15vh;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  letter-spacing: 10px;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  background-color: #B0BAA2;
+  align-items: center;
+}
+input{
+  color: white;
+  background-color: #B0BAA2;
+  border-color: white;
+  width: 60%;
+  align-content: center;
+  justify-content: center;
+}
+
+input::placeholder {
+ background-color: #B0BAA2;
+ color: white;
+}
+
+.pai{
+
+
+  display: flex; /*trasforma uma div em container*/
+  flex-direction: row; /* alinhas os filhos em uma direção (TAG COLUMN ALINHA NA VERTICAL */
+  flex-wrap: wrap;
+}
+
+.filho1{
+
+  width: 15%;
+  height:40vh;
+  background-color:#E4C1BB;
+  margin: 20px;
+  margin-left: 69px;
+  margin-right: 59px;
+  margin-top: 40px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filho1 h1{
+  text-align: center;
+  margin-top: 0;
+}
+.filho1 a{
+  text-align: center;
+  font-size:20px;
+}
+.filho2{
+  width: 15%;
+  height:40vh;
+  background-color: #E4C1BB;
+  margin-top: 40px;
+  margin-left: 69px;
+  margin-right: 59px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filho2 h1{
+  text-align: center;
+  margin-top: 0;
+}
+.filho2 a{
+  text-align: center;
+  font-size:20px;
+}
+.filho3{
+  width: 15%;
+  height:40vh;
+  background-color: #E4C1BB;
+  margin-top: 40px;
+  margin-left: 69px;
+  margin-right: 59px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filho3 h1{
+  align-self: center;
+  margin-top: 0;
+  font-size: 20px;
+  margin-left:5px;
+  margin-right: 5px;
+}
+.filho3 a{
+  text-align: center;
+  font-size:20px;
+}
+.filho4{
+  width: 15%;
+  height:40vh;
+  background-color: #E4C1BB;
+  margin-top: 40px;
+  margin-left:69px;
+  margin-right: 59px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filho4 h1{
+  text-align: center;
+  margin-top:0;
+  font-size: 20px;
+  margin-left:5px;
+  margin-right: 5px;
+}
+.filho4 a{
+  text-align: center;
+  font-size:20px;
+}
+
+.video{
+  margin-left: 6%;
+  align-self: center;
+}
+iframe{
+  width:93.3%;
+  height: 80vh;
+}
+
+footer{
+  height: 30vh;
+  width: 100%;
+  background-color: #B0BAA2;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  margin-top: 2%;
+  align-items: center;
+}
+footer p{
+  align-self: flex-start;
+}
+.footerlogo{
+  margin-top: 10%
+  margin-left: 90%;
+  width: 15%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.quadrinho{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.q1{
+  margin:10%;
+  justify-content: center;
+  align-items: center;
+}
+.hq{
+  margin: 60px;
+  width: 400px;
+  height: 520px;
+}
+.fotoss{
+  width: 0px
+}
+
+/*ultra page break pra fazer o css mais bonito do Brasil ser visto em Iphone 15 pro */
+
+@media (max-width: 393px) and (max-height: 852px) {
+
+body{
+  background-color:#FEEAE3;
+  margin: 0px;
+  font-family: cherry bomb one, cherry bomb;
+}
+
+.I{
+  background-color: #FEEAE3;
+  display: flex; /*trasforma uma div em container*/
+  flex-direction: row; /* alinhas os filhos em uma direção (TAG COLUMN ALINHA NA VERTICAL */
+  flex-wrap: wrap;
+}
+.c2{
+  width: 40%;
+  height: 40%;
+  background-color:#B7C8A1;  
+  margin-left: 3%;
+  margin-right: 3%;
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.c2 a{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 200%;
+  color: white;
+  text-decoration: none;
+}
+
+.logo{
+  height: 100%;
+  width: 100%;
+
+} 
+
+.L2{
+  width: 50%;
+  height: 5vh;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.L3{
+  width: 30%;
+  height: 15vh;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  letter-spacing: 10px;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  background-color: #B0BAA2;
+  align-items: center;
+}
+input{
+  color: white;
+  background-color: #B0BAA2;
+  border-color: white;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+input::placeholder {
+ background-color: #B0BAA2;
+ color: white;
+}
+
+.pai{
+  display: flex; /*trasforma uma div em container*/
+  flex-direction: row; /* alinhas os filhos em uma direção (TAG COLUMN ALINHA NA VERTICAL */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filho1{
+
+  width: 38%;
+  height:30vh;
+  background-color:#E4C1BB;
+  margin: 2%;
+  margin-left: 9%;
+  margin-right: 3%;
+  margin-top: 40px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filho1 h1{
+  text-align: center;
+  margin-top: 0;
+  font-size: 32px;
+}
+.filho1 a{
+  text-align: center;
+  font-size: 20px;
+}
+.filho2{
+  width: 38%;
+  height: 30vh;
+  background-color:#E4C1BB;
+  margin: 2%;
+  margin-left: 3%;
+  margin-right: 9%;
+  margin-top: 40px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filho2 h1{
+  text-align: center;
+  margin-top: 0;
+  font-size: 28px
+}
+.filho2 a{
+  text-align: center;
+  font-size:20px;
+}
+.filho3{
+  width: 38%;
+  height:30vh;
+  background-color:#E4C1BB;
+  margin: 2%;
+  margin-left: 9%;
+  margin-right: 3%;
+  margin-top: 40px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filho3 h1{
+  align-self: center;
+  margin-top: 0;
+  font-size: 28px;
+  margin-left:5px;
+  margin-right: 5px;
+}
+.filho3 a{
+  text-align: center;
+  font-size:20px;
+}
+.filho4{
+  width: 38%;
+  height:30vh;
+  background-color:#E4C1BB;
+  margin: 2%;
+  margin-left: 3%;
+  margin-right: 9%;
+  margin-top: 40px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filho4 h1{
+  text-align: center;
+  margin-top:0;
+  font-size: 19px;
+  margin-left:5px;
+  margin-right: 5px;
+}
+.filho4 a{
+  text-align: center;
+  font-size:20px;
+}
+
+.video{
+  margin:2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+iframe{
+  height:30%;
+  width:93.3%;
+}
+
+footer{
+  height: 70vh;
+  width: 100%;
+  background-color: #B0BAA2;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  margin-top: 2%;
+  align-items: center;
+}
+footer p{
+  align-self: flex-start;
+}
+.footerlogo{
+  margin-top: 10%
+  margin-left: 90%;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.quadrinho{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.q1{
+  margin:0%;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.hq{
+  margin-top: 60px;
+  width: 80%;
+  height: 100%;
+  margin-right: -5%;
+  margin-left: 10%;
+}
+.fotoss{
+  margin-top: 50%;
+  width: 100%;
+}
+
+}
