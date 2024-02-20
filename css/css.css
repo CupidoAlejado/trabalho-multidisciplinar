@@ -2,7 +2,7 @@ body{
   background-color:#FEEAE3;
   margin: 0px;
   font-family: cherry bomb;
-  text-align: center;
+  justify-content: center;
 }
 /*.logo{
   width: 10%;
